@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="toDoList.css">
+</head>
+<body> 
+    <!--main page-->
+    <div class="container">
+        <div class="to-do">
+             <!--list header/inputsection-->
+            <h2><img src="logo.png" alt="To-do List Logo"> To-Do List </h2>
+            <div class="addList">
+                <input type="text" id="add-box" placeholder="Add your Task">
+                <button onclick="addTask()">Add</button>
+        </div>
+         <!--ToDO List/Task Section-->
+        <ul id="list-Section">
+           <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li>--->
+        </ul>
+    </div>
+    <script src="toDoList.js"></script>
+</body>
+</html>
